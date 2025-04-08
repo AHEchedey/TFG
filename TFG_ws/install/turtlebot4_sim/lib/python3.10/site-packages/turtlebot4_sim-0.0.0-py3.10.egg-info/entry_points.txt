@@ -1,0 +1,8 @@
+[console_scripts]
+
+
+[launch]
+launch_gazebo_robot = turtlebot4_sim.launch.launch_gazebo_robot:generate_launch_description
+launch_sim_turtlebot4 = turtlebot4_sim.launch.launch_sim_turtlebot4:generate_launch_description
+launch_turtlebot4_empty = turtlebot4_sim.launch.launch_turtlebot4_empty:generate_launch_description
+
