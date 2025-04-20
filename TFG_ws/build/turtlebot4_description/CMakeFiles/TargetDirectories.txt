@@ -1,9 +1,0 @@
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/uninstall.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/turtlebot4_description_uninstall.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/test.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/edit_cache.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/rebuild_cache.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/list_install_components.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/install.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/install/local.dir
-/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_description/CMakeFiles/install/strip.dir
