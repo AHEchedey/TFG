@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_msgs/rosidl_typesupport_fastrtps_c/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_fastrtps_c.h

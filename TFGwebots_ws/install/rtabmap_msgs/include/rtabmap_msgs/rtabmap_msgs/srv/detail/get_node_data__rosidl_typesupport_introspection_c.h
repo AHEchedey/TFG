@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_msgs/rosidl_typesupport_introspection_c/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_introspection_c.h

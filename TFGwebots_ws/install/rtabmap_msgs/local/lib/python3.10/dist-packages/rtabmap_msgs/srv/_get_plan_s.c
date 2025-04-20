@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/srv/_get_plan_s.c

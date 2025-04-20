@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_msgs/rosidl_cmake/srv/RemoveLabel_Request.msg
