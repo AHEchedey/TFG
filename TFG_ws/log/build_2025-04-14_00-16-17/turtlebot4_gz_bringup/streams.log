@@ -1,0 +1,68 @@
+[0.011s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_gz_bringup -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.313s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.547s] -- Found ros_gz_interfaces: 0.244.16 (/opt/ros/humble/share/ros_gz_interfaces/cmake)
+[0.583s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.589s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.597s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.776s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.780s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.780s] -- Added test 'lint_cmake' to check CMake code style
+[0.781s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.783s] -- Added test 'xmllint' to check XML markup files
+[0.784s] -- Configuring done
+[0.788s] -- Generating done
+[0.790s] -- Build files have been written to: /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup
+[0.797s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_gz_bringup -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup
+[0.799s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup -- -j16 -l16
+[0.844s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup -- -j16 -l16
+[0.846s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup
+[0.855s] -- Install configuration: ""
+[0.855s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/config
+[0.855s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/config/turtlebot4_node.yaml
+[0.856s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/gui
+[0.856s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/gui/standard
+[0.856s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/gui/standard/gui.config
+[0.856s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/gui/lite
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/gui/lite/gui.config
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/launch
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/launch/sim.launch.py
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/launch/turtlebot4_spawn.launch.py
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/launch/ros_gz_bridge.launch.py
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/launch/turtlebot4_gz.launch.py
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/launch/turtlebot4_nodes.launch.py
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/worlds
+[0.857s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/worlds/maze.sdf
+[0.858s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/worlds/warehouse.sdf
+[0.858s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/worlds/depot.sdf
+[0.858s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot4_gz_bringup
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot4_gz_bringup
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/environment/ament_prefix_path.sh
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/environment/ament_prefix_path.dsv
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/environment/path.sh
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/environment/path.dsv
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/local_setup.bash
+[0.859s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/local_setup.sh
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/local_setup.zsh
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/local_setup.dsv
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.dsv
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/ament_index/resource_index/packages/turtlebot4_gz_bringup
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/cmake/turtlebot4_gz_bringupConfig.cmake
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/cmake/turtlebot4_gz_bringupConfig-version.cmake
+[0.860s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.xml
+[0.863s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_bringup

@@ -1,0 +1,9 @@
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/uninstall.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/room3_uninstall.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/test.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/edit_cache.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/rebuild_cache.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/list_install_components.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/install.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/install/local.dir
+/home/echedey/Desktop/TFG/TFG_ws/build/room3/CMakeFiles/install/strip.dir

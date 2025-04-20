@@ -1,0 +1,16 @@
+[1.041s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python/build --no-deps symlink_data
+[1.345s] running develop
+[1.639s] running egg_info
+[1.639s] writing rtabmap_python.egg-info/PKG-INFO
+[1.640s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[1.640s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[1.640s] writing requirements to rtabmap_python.egg-info/requires.txt
+[1.641s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[1.644s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[1.647s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[1.649s] running build_ext
+[1.649s] Creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[1.651s] 
+[1.651s] Installed /home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python
+[1.651s] running symlink_data
+[1.754s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python/build --no-deps symlink_data
