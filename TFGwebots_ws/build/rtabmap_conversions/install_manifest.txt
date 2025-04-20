@@ -1,4 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_conversions/lib/librtabmap_conversions.so
-/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h
-/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake
-/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-noconfig.cmake

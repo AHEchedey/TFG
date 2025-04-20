@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_msgs/rosidl_generator_cpp/rtabmap_msgs/srv/detail/set_goal__traits.hpp

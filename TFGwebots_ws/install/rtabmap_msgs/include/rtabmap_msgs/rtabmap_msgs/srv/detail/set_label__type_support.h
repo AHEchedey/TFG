@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/set_label__type_support.h
