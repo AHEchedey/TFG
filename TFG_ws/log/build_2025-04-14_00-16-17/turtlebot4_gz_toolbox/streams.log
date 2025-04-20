@@ -1,0 +1,78 @@
+[0.024s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.404s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.410s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.553s] -- Detecting CXX compile features
+[0.553s] -- Detecting CXX compile features - done
+[0.558s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.758s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.887s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.962s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.971s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.988s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.283s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.328s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.413s] -- Looking for pthread.h
+[1.533s] -- Looking for pthread.h - found
+[1.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.641s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.642s] -- Found Threads: TRUE  
+[1.723s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.779s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.827s] -- Found turtlebot4_msgs: 1.0.5 (/opt/ros/humble/share/turtlebot4_msgs/cmake)
+[1.849s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.956s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.956s] -- Configured cppcheck include dirs: /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox/include
+[1.957s] -- Configured cppcheck exclude dirs and/or files: 
+[1.958s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.958s] -- Configured cpplint exclude dirs and/or files: 
+[1.959s] -- Added test 'lint_cmake' to check CMake code style
+[1.961s] -- Added test 'uncrustify' to check C / C++ code style
+[1.961s] -- Configured uncrustify additional arguments: 
+[1.961s] -- Added test 'xmllint' to check XML markup files
+[1.964s] -- Configuring done
+[1.985s] -- Generating done
+[1.992s] -- Build files have been written to: /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox
+[2.005s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox
+[2.008s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox -- -j16 -l16
+[2.081s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_gz_toolbox_lib.dir/src/hmi_node.cpp.o[0m
+[2.081s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_gz_toolbox_lib.dir/src/hmi_main.cpp.o[0m
+[14.003s] [ 60%] [32m[1mLinking CXX static library libturtlebot4_gz_toolbox_lib.a[0m
+[14.259s] [ 60%] Built target turtlebot4_gz_toolbox_lib
+[14.285s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlebot4_gz_hmi_node.dir/src/hmi_main.cpp.o[0m
+[16.794s] [100%] [32m[1mLinking CXX executable turtlebot4_gz_hmi_node[0m
+[17.531s] [100%] Built target turtlebot4_gz_hmi_node
+[17.537s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox -- -j16 -l16
+[17.539s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox
+[17.548s] -- Install configuration: ""
+[17.548s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/lib/turtlebot4_gz_toolbox/turtlebot4_gz_hmi_node
+[17.554s] -- Set runtime path of "/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/lib/turtlebot4_gz_toolbox/turtlebot4_gz_hmi_node" to ""
+[17.554s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_gz_toolbox
+[17.554s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_gz_toolbox
+[17.554s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/ament_prefix_path.sh
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/ament_prefix_path.dsv
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/path.sh
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/path.dsv
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.bash
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.sh
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.zsh
+[17.555s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.dsv
+[17.556s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.dsv
+[17.556s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/packages/turtlebot4_gz_toolbox
+[17.556s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.556s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/turtlebot4_gz_toolboxConfig.cmake
+[17.556s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/turtlebot4_gz_toolboxConfig-version.cmake
+[17.556s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.xml
+[17.559s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_gz_toolbox

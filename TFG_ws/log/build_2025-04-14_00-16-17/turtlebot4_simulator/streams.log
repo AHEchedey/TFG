@@ -1,0 +1,39 @@
+[0.010s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_simulator -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.611s] -- Configuring done
+[0.613s] -- Generating done
+[0.615s] -- Build files have been written to: /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator
+[0.620s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake /home/echedey/Desktop/TFG/TFG_ws/src/turtlebot4_simulator/turtlebot4_simulator -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator
+[0.621s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator -- -j16 -l16
+[0.664s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator -- -j16 -l16
+[0.666s] Invoking command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator
+[0.674s] -- Install configuration: ""
+[0.674s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/ament_index/resource_index/package_run_dependencies/turtlebot4_simulator
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/ament_index/resource_index/parent_prefix_path/turtlebot4_simulator
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/ament_prefix_path.sh
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/ament_prefix_path.dsv
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/path.sh
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/path.dsv
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.bash
+[0.675s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.sh
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.zsh
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.dsv
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.dsv
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/ament_index/resource_index/packages/turtlebot4_simulator
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/cmake/turtlebot4_simulatorConfig.cmake
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/cmake/turtlebot4_simulatorConfig-version.cmake
+[0.676s] -- Installing: /home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.xml
+[0.680s] Invoked command in '/home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_bringup:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_gz_toolbox:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_description:/home/echedey/Desktop/TFG/TFG_ws/install/turtlebot4_simulator:/home/echedey/Desktop/TFG/TFG_ws/install/room3:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFG_ws/build/turtlebot4_simulator

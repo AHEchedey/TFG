@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_python/lib/python3.10/site-packages",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_python",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_python/lib/python3.10/site-packages",
+        "/home/echedey/Desktop/TFG/TFGwebots_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-215648403b9aa52463c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_util",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_disparity_to_depth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_disparity_to_depth-0c39b632d02dafd03654.json",
+					"name" : "rtabmap_disparity_to_depth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_imu_to_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_imu_to_tf-45ccda94d9f8da682080.json",
+					"name" : "rtabmap_imu_to_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_lidar_deskewing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_lidar_deskewing-055af0492ee6e0c222a1.json",
+					"name" : "rtabmap_lidar_deskewing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_map_assembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_map_assembler-bc966a5b918c075de5df.json",
+					"name" : "rtabmap_map_assembler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_obstacles_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_obstacles_detection-fec2fa573aef8a0b448d.json",
+					"name" : "rtabmap_obstacles_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_aggregator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_aggregator-7797fd5256072dd16d09.json",
+					"name" : "rtabmap_point_cloud_aggregator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_assembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_assembler-dad3f1a174f0438f515a.json",
+					"name" : "rtabmap_point_cloud_assembler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_xyz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_xyz-564b18fc4e3055c3097d.json",
+					"name" : "rtabmap_point_cloud_xyz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_xyzrgb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_xyzrgb-5dbbb1e6673bd392d816.json",
+					"name" : "rtabmap_point_cloud_xyzrgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_pointcloud_to_depthimage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_pointcloud_to_depthimage-308860efd9dd8789e887.json",
+					"name" : "rtabmap_pointcloud_to_depthimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbd_relay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbd_relay-289d9ba1bb8b8ee56da5.json",
+					"name" : "rtabmap_rgbd_relay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbd_split::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbd_split-2e94d6ebe8c3ebee4ee4.json",
+					"name" : "rtabmap_rgbd_split",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_util_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_util_plugins-d5f9d92c221f4c779e62.json",
+					"name" : "rtabmap_util_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_util_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_util_uninstall-4a190647ec2dda30c6bd.json",
+					"name" : "rtabmap_util_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2cc6b7841c41f9433941.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/echedey/Desktop/TFG/TFGwebots_ws/build/rtabmap_util",
+		"source" : "/home/echedey/Desktop/TFG/TFGwebots_ws/src/rtabmap_ros/rtabmap_util"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
