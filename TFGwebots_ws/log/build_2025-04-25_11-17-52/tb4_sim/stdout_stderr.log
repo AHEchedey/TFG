@@ -1,0 +1,30 @@
+running develop
+Removing /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4-sim.egg-link (link to .)
+running egg_info
+writing ../../build/tb4_sim/tb4_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb4_sim/tb4_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/tb4_sim/tb4_sim.egg-info/entry_points.txt
+writing requirements to ../../build/tb4_sim/tb4_sim.egg-info/requires.txt
+writing top-level names to ../../build/tb4_sim/tb4_sim.egg-info/top_level.txt
+reading manifest file '../../build/tb4_sim/tb4_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb4_sim/tb4_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4_sim
+copying /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/build/lib/tb4_sim/__init__.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4_sim
+byte-compiling /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4_sim/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/tb4_sim -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/ament_index/resource_index/packages
+copying launch/tb4_launcher.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/launch
+copying resource/tb4_raw.urdf -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+copying resource/tb4_webots.xacro -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+copying resource/tb4_control.yaml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+copying resource/helper.xacro -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+copying worlds/house.wbt -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/worlds
+copying package.xml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim
+running install_egg_info
+Copying ../../build/tb4_sim/tb4_sim.egg-info to /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4_sim-0.1.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/install.log'
