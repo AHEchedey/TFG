@@ -1,0 +1,24 @@
+[0.949s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/build --no-deps symlink_data --force
+[1.187s] running develop
+[1.334s] running egg_info
+[1.335s] writing tb4_sim.egg-info/PKG-INFO
+[1.335s] writing dependency_links to tb4_sim.egg-info/dependency_links.txt
+[1.335s] writing entry points to tb4_sim.egg-info/entry_points.txt
+[1.335s] writing requirements to tb4_sim.egg-info/requires.txt
+[1.335s] writing top-level names to tb4_sim.egg-info/top_level.txt
+[1.337s] reading manifest file 'tb4_sim.egg-info/SOURCES.txt'
+[1.347s] writing manifest file 'tb4_sim.egg-info/SOURCES.txt'
+[1.348s] running build_ext
+[1.348s] Creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4-sim.egg-link (link to .)
+[1.349s] 
+[1.349s] Installed /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim
+[1.349s] running symlink_data
+[1.349s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_sim -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/ament_index/resource_index/packages
+[1.349s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/launch/tb4_launcher.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/launch
+[1.350s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_raw.urdf -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+[1.350s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_webots.xacro -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+[1.350s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_control.yaml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+[1.350s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/helper.xacro -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+[1.350s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/worlds/house.wbt -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/worlds
+[1.350s] symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/package.xml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim
+[1.407s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim' returned '0': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/build --no-deps symlink_data --force

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing tb4_sim.egg-info/PKG-INFO
+writing dependency_links to tb4_sim.egg-info/dependency_links.txt
+writing entry points to tb4_sim.egg-info/entry_points.txt
+writing requirements to tb4_sim.egg-info/requires.txt
+writing top-level names to tb4_sim.egg-info/top_level.txt
+reading manifest file 'tb4_sim.egg-info/SOURCES.txt'
+writing manifest file 'tb4_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages/tb4-sim.egg-link (link to .)
+
+Installed /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim
+running symlink_data
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_sim -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/ament_index/resource_index/packages
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/launch/tb4_launcher.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/launch
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_raw.urdf -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_webots.xacro -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/tb4_control.yaml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/resource/helper.xacro -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/resource
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/worlds/house.wbt -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/worlds
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/package.xml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim
