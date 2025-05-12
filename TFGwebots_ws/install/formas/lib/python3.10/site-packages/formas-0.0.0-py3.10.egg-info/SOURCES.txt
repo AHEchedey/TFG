@@ -10,6 +10,7 @@ setup.py
 ../../build/formas/formas.egg-info/zip-safe
 formas/__init__.py
 formas/cuadrado.py
+formas/sala_completa.py
 resource/formas
 test/test_copyright.py
 test/test_flake8.py

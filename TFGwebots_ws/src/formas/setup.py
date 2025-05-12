@@ -19,6 +19,7 @@ setup(
     entry_points={
         'console_scripts': [
             'cuadrado = formas.cuadrado:main',
+            'sala = formas.sala_completa:main',
         ],
     },
 )
