@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating formas.egg-info
+writing formas.egg-info/PKG-INFO
+writing dependency_links to formas.egg-info/dependency_links.txt
+writing entry points to formas.egg-info/entry_points.txt
+writing requirements to formas.egg-info/requires.txt
+writing top-level names to formas.egg-info/top_level.txt
+writing manifest file 'formas.egg-info/SOURCES.txt'
+reading manifest file 'formas.egg-info/SOURCES.txt'
+writing manifest file 'formas.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas.egg-link (link to .)
+Installing cuadrado script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+Installing sala script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+
+Installed /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas
+running symlink_data
+creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index
+creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index/resource_index
+creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index/resource_index/packages
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/resource/formas -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index/resource_index/packages
+symbolically linking /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/package.xml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas

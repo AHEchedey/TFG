@@ -284,12 +284,12 @@ CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/imu_param_handler.cp
  /opt/ros/humble/include/depthai-shared/datatype/RawCameraControl.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/Buffer.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/ADatatype.hpp \
- /opt/ros/humble/include/depthai_bridge/ImuConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImuConverter.hpp \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/iostream \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /opt/ros/humble/include/depthai/pipeline/datatype/IMUData.hpp \
- /opt/ros/humble/include/depthai_bridge/depthaiUtility.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/depthaiUtility.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -692,22 +692,22 @@ CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/imu_param_handler.cp
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/imu_with_magnetic_field.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__builder.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/imu_with_magnetic_field__type_support.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp \

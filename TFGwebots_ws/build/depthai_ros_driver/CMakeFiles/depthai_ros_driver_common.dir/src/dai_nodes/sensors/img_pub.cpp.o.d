@@ -700,7 +700,7 @@ CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/img_pub.cpp.o: \
  /opt/ros/humble/include/depthai/pipeline/node/VideoEncoder.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
  /usr/include/opencv4/opencv2/core/core.hpp \

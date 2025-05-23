@@ -1,6 +1,1 @@
-/oak:
-  ros__parameters:
-    camera:
-      i_pipeline_type: 'Depth'
-    right:
-      i_publish_topic: true
+/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver/config/oak_d_sr.yaml

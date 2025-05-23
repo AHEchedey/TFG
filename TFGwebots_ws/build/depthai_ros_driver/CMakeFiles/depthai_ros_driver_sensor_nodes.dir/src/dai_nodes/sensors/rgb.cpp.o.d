@@ -683,7 +683,7 @@ CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/rgb.cpp.o: 
  /opt/ros/humble/include/depthai-shared/properties/XLinkInProperties.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \

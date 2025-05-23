@@ -448,7 +448,7 @@ CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/nn_wrapper.cpp.o: \
  /opt/ros/humble/include/depthai-shared/properties/ImageManipProperties.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
@@ -555,7 +555,7 @@ CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/nn_wrapper.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/ImgDetectionConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImgDetectionConverter.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection2_d__struct.hpp \

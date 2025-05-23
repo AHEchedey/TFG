@@ -702,7 +702,7 @@ CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/spatial_nn_wrapper.c
  /opt/ros/humble/include/depthai-shared/properties/ImageManipProperties.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
@@ -777,28 +777,28 @@ CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/spatial_nn_wrapper.c
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/depthai_bridge/SpatialDetectionConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/SpatialDetectionConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/SpatialImgDetections.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawSpatialImgDetections.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawImgDetections.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/spatial_detection_array.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/spatial_detection_array.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp \
- /opt/ros/humble/include/depthai_ros_msgs/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_generator_cpp/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.hpp \
  /opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp \

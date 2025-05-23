@@ -25,7 +25,7 @@ def get_ros2_nodes(*args):
         robot_description=tb4_description,
         relative_path_prefix=os.path.join(package_dir, 'resource'),
         translation='6.779572877942763 2.7203689810650897 -0.005743749274182641',
-        rotation='0.013068751525735459 -0.10002895929371924 0.9948986958661541 0.2630261491930291',
+        rotation='0 0 1 0',
     )
 
     # Remaps
