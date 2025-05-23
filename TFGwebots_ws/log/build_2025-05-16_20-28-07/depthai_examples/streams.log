@@ -1,0 +1,130 @@
+[0.018s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.268s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.413s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.689s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.733s] -- ------------------------------------------
+[0.733s] -- Depthai Bridge is being built using AMENT.
+[0.734s] -- ------------------------------------------
+[0.736s] -- Found camera_info_manager: 3.1.11 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.802s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.809s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.820s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.080s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.128s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.195s] -- Looking for pthread.h
+[1.287s] -- Looking for pthread.h - found
+[1.287s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.381s] -- Found Threads: TRUE  
+[1.485s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.488s] -- Found depthai_ros_msgs: 2.11.2 (/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+[1.522s] -- Found depthai_bridge: 2.11.2 (/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/cmake)
+[1.696s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.697s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.697s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.835s] -- Configuring done
+[1.922s] -- Generating done
+[1.954s] -- Build files have been written to: /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples
+[1.971s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples
+[1.974s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples -- -j16 -l16
+[2.080s] [  5%] [32mBuilding CXX object CMakeFiles/crop_control_service.dir/src/crop_control_service.cpp.o[0m
+[2.084s] [ 20%] [32mBuilding CXX object CMakeFiles/tracker_yolov4_node.dir/src/tracker_yolov4_publisher.cpp.o[0m
+[2.084s] [ 20%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o[0m
+[2.084s] [ 20%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker_publisher.cpp.o[0m
+[2.085s] [ 30%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher.cpp.o[0m
+[2.085s] [ 30%] [32mBuilding CXX object CMakeFiles/tracker_yolov4_spatial_node.dir/src/tracker_yolov4_spatial_publisher.cpp.o[0m
+[2.085s] [ 35%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/src/stereo_publisher.cpp.o[0m
+[2.085s] [ 40%] [32mBuilding CXX object CMakeFiles/yolov4_node.dir/src/yolov4_publisher.cpp.o[0m
+[2.085s] [ 45%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o[0m
+[2.090s] [ 50%] [32mBuilding CXX object CMakeFiles/yolov4_spatial_node.dir/src/yolov4_spatial_publisher.cpp.o[0m
+[14.004s] [ 55%] [32m[1mLinking CXX executable crop_control_service[0m
+[14.675s] [ 55%] Built target crop_control_service
+[23.409s] [ 60%] [32m[1mLinking CXX executable rgb_stereo_node[0m
+[24.385s] [ 65%] [32m[1mLinking CXX executable stereo_node[0m
+[24.865s] [ 70%] [32m[1mLinking CXX executable yolov4_node[0m
+[25.378s] [ 75%] [32m[1mLinking CXX executable mobilenet_node[0m
+[25.855s] [ 75%] Built target rgb_stereo_node
+[26.461s] [ 75%] Built target stereo_node
+[27.002s] [ 75%] Built target yolov4_node
+[27.285s] [ 75%] Built target mobilenet_node
+[27.529s] [ 80%] [32m[1mLinking CXX executable tracker_yolov4_node[0m
+[27.824s] [ 85%] [32m[1mLinking CXX executable yolov4_spatial_node[0m
+[28.341s] [ 90%] [32m[1mLinking CXX executable feature_tracker[0m
+[28.746s] [ 95%] [32m[1mLinking CXX executable tracker_yolov4_spatial_node[0m
+[29.262s] [ 95%] Built target tracker_yolov4_node
+[29.563s] [ 95%] Built target yolov4_spatial_node
+[29.922s] [ 95%] Built target feature_tracker
+[30.295s] [ 95%] Built target tracker_yolov4_spatial_node
+[31.928s] [100%] [32m[1mLinking CXX executable stereo_inertial_node[0m
+[33.286s] [100%] Built target stereo_inertial_node
+[33.317s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples -- -j16 -l16
+[33.319s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples
+[33.328s] -- Install configuration: ""
+[33.328s] -- Execute custom install script
+[33.329s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/params/camera/color.yaml
+[33.339s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/params/camera/left.yaml
+[33.351s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/params/camera/right.yaml
+[33.362s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/pointCloud.rviz
+[33.371s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/rgb_camera.rviz
+[33.382s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertial.rviz
+[33.393s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlign.rviz
+[33.403s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlignROS2.rviz
+[33.414s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialROS1.rviz
+[33.424s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud.rviz
+[33.435s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud_v1.rviz
+[33.447s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_config.rviz
+[33.457s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_nodelet.rviz
+[33.470s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/resources/deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob
+[33.481s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+[33.491s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/resources/yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob
+[33.503s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/crop_control_service
+[33.515s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node
+[33.526s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node
+[33.537s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node
+[33.548s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/stereo_node
+[33.558s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node
+[33.568s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/yolov4_node
+[33.580s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/feature_tracker
+[33.590s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/tracker_yolov4_node
+[33.601s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/depthai_examples/tracker_yolov4_spatial_node
+[33.612s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/ament_index/resource_index/package_run_dependencies/depthai_examples
+[33.623s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/ament_index/resource_index/parent_prefix_path/depthai_examples
+[33.634s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.sh
+[33.645s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.dsv
+[33.655s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/environment/path.sh
+[33.664s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/environment/path.dsv
+[33.677s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/local_setup.bash
+[33.688s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/local_setup.sh
+[33.698s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/local_setup.zsh
+[33.709s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/local_setup.dsv
+[33.719s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.dsv
+[33.730s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/ament_index/resource_index/packages/depthai_examples
+[33.741s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig.cmake
+[33.751s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig-version.cmake
+[33.762s] -- Symlinking: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.xml
+[33.773s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch
+[33.773s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/tracker_yolov4_node.launch.py
+[33.774s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py
+[33.774s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py
+[33.774s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py
+[33.775s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/tracker_yolov4_spatial_node.launch.py
+[33.775s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py
+[33.775s] -- Installing: /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py
+[33.778s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples

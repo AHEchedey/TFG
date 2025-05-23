@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a75ffda88cecca6dc35c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "depthai_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "depthai_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depthai_bridge-53053a69c4b5a0bcf47e.json",
+					"name" : "depthai_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depthai_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depthai_bridge_uninstall-3bcf3a6f1e610a4d245b.json",
+					"name" : "depthai_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b3ce0d7f2919f5dbe4b4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge",
+		"source" : "/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

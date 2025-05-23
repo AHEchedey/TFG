@@ -1,0 +1,1095 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--allow-overriding', 'depthai_bridge', 'depthai_examples', 'depthai_ros_driver', 'depthai_ros_msgs']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['depthai_bridge', 'depthai_examples', 'depthai_ros_driver', 'depthai_ros_msgs'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b45a655bc70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b45a6519360>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b45a6519360>>, mixin_verb=('build',))
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.257s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/echedey/Desktop/TFG/TFGwebots_ws'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(View_frames) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_1) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_10) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_11) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_12) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_13) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_14) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_16) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_17) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_18) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_19) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_2) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_20) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_21) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_22) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_23) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_24) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_25) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_26) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_27) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_3) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_4) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_5) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_6) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_7) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_8) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_9) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(simulaciones/Prueba_general_1/pruebaGeneral_1) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/formas) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/formas' with type 'ros.ament_python' and name 'formas'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb4_sim) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb4_sim' with type 'ros.ament_python' and name 'tb4_sim'
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/echedey/Desktop/TFG/TFGwebots_ws/install
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 485 installed packages in /opt/ros/humble
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_descriptions', 'symlink_install': True, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'formas' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'formas' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas', 'symlink_install': True, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'tb4_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'tb4_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/tb4_sim', 'symlink_install': True, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_filters', 'symlink_install': True, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_examples', 'symlink_install': True, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver', 'symlink_install': True, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'depthai-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros', 'merge_install': False, 'path': '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai-ros', 'symlink_install': True, 'test_result_base': None}
+[0.406s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_msgs' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_msgs'
+[0.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_descriptions' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_descriptions'
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas' with build type 'ament_python'
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('formas', 'ament_prefix_path')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/hook/ament_prefix_path.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/hook/ament_prefix_path.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/hook/ament_prefix_path.sh'
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/tb4_sim' with build type 'ament_python'
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb4_sim', 'ament_prefix_path')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/hook/ament_prefix_path.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/hook/ament_prefix_path.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/hook/ament_prefix_path.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs -- -j16 -l16
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions -- -j16 -l16
+[0.742s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas'
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.013s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/tb4_sim'
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions -- -j16 -l16
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs -- -j16 -l16
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs
+[1.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions' for CMake module files
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions' for CMake config files
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/lib/python3.10/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[1.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[1.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions' for CMake module files
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions' for CMake config files
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/bin'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/lib/python3.10/site-packages'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/bin'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[1.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[1.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs' for CMake module files
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs' for CMake config files
+[1.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib'
+[1.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/bin'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[1.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs' for CMake module files
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib'
+[1.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/bin'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/bin'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[1.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[1.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_bridge' with build type 'ament_cmake'
+[1.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_bridge'
+[1.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_filters' with build type 'ament_cmake'
+[1.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_filters'
+[1.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge -- -j16 -l16
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters -- -j16 -l16
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters -- -j16 -l16
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge -- -j16 -l16
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge
+[1.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters' for CMake module files
+[1.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_filters
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters' for CMake config files
+[1.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'cmake_prefix_path')
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.sh'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib'
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'ld_library_path_lib')
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.sh'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/bin'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib/python3.10/site-packages'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/bin'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.sh'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.bash'
+[1.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.zsh'
+[1.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[1.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_filters)
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters' for CMake module files
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'cmake_prefix_path')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/cmake_prefix_path.sh'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib'
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_filters', 'ld_library_path_lib')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/hook/ld_library_path_lib.sh'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib/pkgconfig/depthai_filters.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/bin'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.sh'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.bash'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/depthai_filters/package.zsh'
+[1.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/share/colcon-core/packages/depthai_filters)
+[1.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_bridge)
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge' for CMake module files
+[1.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_bridge
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge' for CMake config files
+[1.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'cmake_prefix_path')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.sh'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib'
+[1.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'ld_library_path_lib')
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.sh'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/bin'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib/pkgconfig/depthai_bridge.pc'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib/python3.10/site-packages'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/bin'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.ps1'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.sh'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.bash'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.zsh'
+[1.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/colcon-core/packages/depthai_bridge)
+[1.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_bridge)
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge' for CMake module files
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge' for CMake config files
+[1.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'cmake_prefix_path')
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.ps1'
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.dsv'
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/cmake_prefix_path.sh'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib'
+[1.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_bridge', 'ld_library_path_lib')
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/hook/ld_library_path_lib.sh'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/bin'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib/pkgconfig/depthai_bridge.pc'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib/python3.10/site-packages'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/bin'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.sh'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.bash'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/depthai_bridge/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/share/colcon-core/packages/depthai_bridge)
+[1.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_examples' with build type 'ament_cmake'
+[1.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_examples'
+[1.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples -- -j16 -l16
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build --no-deps symlink_data
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/build --no-deps symlink_data
+[1.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples -- -j16 -l16
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples
+[1.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_examples)
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples' for CMake module files
+[1.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_examples
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples' for CMake config files
+[1.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_examples', 'cmake_prefix_path')
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/hook/cmake_prefix_path.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/hook/cmake_prefix_path.dsv'
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/hook/cmake_prefix_path.sh'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/bin'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/pkgconfig/depthai_examples.pc'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/python3.10/site-packages'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/bin'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.sh'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.bash'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.zsh'
+[1.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/colcon-core/packages/depthai_examples)
+[1.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_examples)
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples' for CMake module files
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples' for CMake config files
+[1.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_examples', 'cmake_prefix_path')
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/hook/cmake_prefix_path.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/hook/cmake_prefix_path.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/hook/cmake_prefix_path.sh'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/bin'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/pkgconfig/depthai_examples.pc'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/lib/python3.10/site-packages'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/bin'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.dsv'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.sh'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.bash'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/depthai_examples/package.zsh'
+[1.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples/share/colcon-core/packages/depthai_examples)
+[1.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver' with build type 'ament_cmake'
+[1.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver'
+[1.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver -- -j16 -l16
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver -- -j16 -l16
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver
+[2.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('formas', 'pythonpath_develop')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/share/formas/hook/pythonpath_develop.ps1'
+[2.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas' returned '0': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build --no-deps symlink_data
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/share/formas/hook/pythonpath_develop.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/share/formas/hook/pythonpath_develop.sh'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas' for CMake module files
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas' for CMake config files
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/bin'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/pkgconfig/formas.pc'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages'
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('formas', 'pythonpath')
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/hook/pythonpath.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/hook/pythonpath.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/hook/pythonpath.sh'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/bin'
+[2.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(formas)
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/package.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/package.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/package.sh'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/package.bash'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas/package.zsh'
+[2.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/colcon-core/packages/formas)
+[2.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb4_sim', 'pythonpath_develop')
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/share/tb4_sim/hook/pythonpath_develop.ps1'
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim' returned '0': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/build --no-deps symlink_data
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/share/tb4_sim/hook/pythonpath_develop.dsv'
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/build/tb4_sim/share/tb4_sim/hook/pythonpath_develop.sh'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim' for CMake module files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim' for CMake config files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib'
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/bin'
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/pkgconfig/tb4_sim.pc'
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/lib/python3.10/site-packages'
+[2.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb4_sim', 'pythonpath')
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/hook/pythonpath.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/hook/pythonpath.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/hook/pythonpath.sh'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/bin'
+[2.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb4_sim)
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/package.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/package.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/package.sh'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/package.bash'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/tb4_sim/package.zsh'
+[2.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim/share/colcon-core/packages/tb4_sim)
+[2.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_driver)
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver' for CMake module files
+[2.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_driver
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver' for CMake config files
+[2.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'cmake_prefix_path')
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.sh'
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib'
+[2.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'ld_library_path_lib')
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.ps1'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/bin'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib/pkgconfig/depthai_ros_driver.pc'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib/python3.10/site-packages'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/bin'
+[2.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv'
+[2.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.sh'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.bash'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.zsh'
+[2.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/colcon-core/packages/depthai_ros_driver)
+[2.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_driver)
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver' for CMake module files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver' for CMake config files
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'cmake_prefix_path')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.dsv'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/cmake_prefix_path.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib'
+[2.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_driver', 'ld_library_path_lib')
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/hook/ld_library_path_lib.sh'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/bin'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib/pkgconfig/depthai_ros_driver.pc'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/lib/python3.10/site-packages'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/bin'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.sh'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.bash'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.zsh'
+[2.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver/share/colcon-core/packages/depthai_ros_driver)
+[2.083s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai-ros' with build type 'ament_cmake'
+[2.083s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai-ros'
+[2.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros -- -j16 -l16
+[2.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros -- -j16 -l16
+[2.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros
+[2.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai-ros)
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros' for CMake module files
+[2.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_driver:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_examples:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_filters:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_ros_msgs:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros:/home/echedey/Desktop/TFG/TFGwebots_ws/install/tb4_sim:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas:/opt/ros/humble GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_MODEL_PATH} GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${GAZEBO_RESOURCE_PATH} IGN_GAZEBO_MODEL_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_MODEL_PATH} IGN_GAZEBO_RESOURCE_PATH=/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_descriptions:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai-ros
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros' for CMake config files
+[2.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai-ros', 'cmake_prefix_path')
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/bin'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/lib/pkgconfig/depthai-ros.pc'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/lib/python3.10/site-packages'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/bin'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.sh'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.bash'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.zsh'
+[2.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/colcon-core/packages/depthai-ros)
+[2.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai-ros)
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros' for CMake module files
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros' for CMake config files
+[2.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai-ros', 'cmake_prefix_path')
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.dsv'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/hook/cmake_prefix_path.sh'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/bin'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/lib/pkgconfig/depthai-ros.pc'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/lib/python3.10/site-packages'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/bin'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.ps1'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.dsv'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.sh'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.bash'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/depthai-ros/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai-ros/share/colcon-core/packages/depthai-ros)
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.189s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.194s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.194s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.194s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.209s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/local_setup.ps1'
+[2.211s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/echedey/Desktop/TFG/TFGwebots_ws/install/_local_setup_util_ps1.py'
+[2.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/setup.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/local_setup.sh'
+[2.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/echedey/Desktop/TFG/TFGwebots_ws/install/_local_setup_util_sh.py'
+[2.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/setup.sh'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/local_setup.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/setup.bash'
+[2.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/local_setup.zsh'
+[2.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/echedey/Desktop/TFG/TFGwebots_ws/install/setup.zsh'

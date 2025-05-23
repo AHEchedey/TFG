@@ -24,7 +24,7 @@ ros2 bag record -s mcap -o "$BAG_PATH" -a &
 PID_BAG=$!
 sleep 3
 
-ros2 run formas cuadrado
+ros2 run formas sala
 
 kill $PID_BAG
 kill $PID_SLAM
@@ -32,4 +32,3 @@ kill $PID_WEBOTS
 kill $PID_BRIDGE
 
 echo "Simulación y grabación finalizadas. Archivo guardado en: $BAG_PATH"
-

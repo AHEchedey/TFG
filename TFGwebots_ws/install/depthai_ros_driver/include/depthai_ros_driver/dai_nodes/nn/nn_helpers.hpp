@@ -1,11 +1,1 @@
-#pragma once
-
-namespace depthai_ros_driver {
-namespace dai_nodes {
-namespace nn_helpers {
-namespace link_types {
-enum class SpatialNNLinkType { input, inputDepth };
-}
-};  // namespace nn_helpers
-}  // namespace dai_nodes
-}  // namespace depthai_ros_driver
+/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_helpers.hpp

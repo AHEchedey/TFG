@@ -3,10 +3,10 @@ Name: tb4-sim
 Version: 0.1.0
 Summary: TurtleBot4 rpbpt ROS2 interface for Webots.
 Home-page: UNKNOWN
-Author: CT Ingenieros
-Author-email: oscar.martinez@ctingenieros.es
-Maintainer: Óscar Martínez
-Maintainer-email: oscar.martinez@ctingenieros.es
+Author: Echedey
+Author-email: ahechedey@gmail.com
+Maintainer: Echedey Aguilar Hernández
+Maintainer-email: ahechedey@gmail.com
 License: Apache License, Version 2.0
 Keywords: ROS,Webots,Robot,Simulation,Examples
 Platform: UNKNOWN

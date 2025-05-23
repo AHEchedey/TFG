@@ -764,7 +764,7 @@ CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/segmentation.cpp.o: 
  /opt/ros/humble/include/depthai-shared/properties/NeuralNetworkProperties.hpp \
  /opt/ros/humble/include/depthai/pipeline/node/XLinkOut.hpp \
  /opt/ros/humble/include/depthai-shared/properties/XLinkOutProperties.hpp \
- /opt/ros/humble/include/depthai_bridge/ImageConverter.hpp \
+ /home/echedey/Desktop/TFG/TFGwebots_ws/install/depthai_bridge/include/depthai_bridge/ImageConverter.hpp \
  /opt/ros/humble/include/depthai/pipeline/datatype/EncodedFrame.hpp \
  /opt/ros/humble/include/depthai-shared/datatype/RawEncodedFrame.hpp \
  /opt/ros/humble/include/ffmpeg_image_transport_msgs/ffmpeg_image_transport_msgs/msg/ffmpeg_packet.hpp \

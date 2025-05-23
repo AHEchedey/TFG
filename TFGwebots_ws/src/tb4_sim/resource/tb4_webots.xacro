@@ -1,54 +1,80 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://wiki.ros.org/xacro">
+<robot xmlns:xacro="http://wiki.ros.org/xacro"
+       xmlns:webots="http://www.cyberbotics.com/xacro/webots">
 
-    <!-- tb4 robot -->
-    <xacro:include filename="$(find tb4_sim)/resource/tb4_raw.urdf" />
+  <!-- Incluir URDF crudo del TB4 -->
+  <xacro:include filename="$(find tb4_sim)/resource/tb4_raw.urdf" />
 
-    <webots>
-      
-      <!-- Add scan config -->
-      <device reference="rplidar">
-        <ros>
-          <topicName>/scan</topicName>
-          <alwaysOn>true</alwaysOn>
-          <updateRate>20</updateRate>
-        </ros>
-      </device>
+  <webots>
+    <!-- Definición de sensores Webots dentro del robot -->
+    <webots:children>
+      <!-- Cámara virtual frontal -->
+      <!-- <webots:Camera name="camera"-->
+                     <!-- width="640" height="480"
+                     fieldOfView="1.047"   ≃60° 
+                     near="0.1" far="10"
+                     translation="0 0 0.25"   ajusta altura                      
+                     rotation="0 1 0 0">    orientada al frente 
+      </webots:Camera>  -->
 
-      <plugin type="webots_ros2_driver::Ros2IMU">
-        <enabled>true</enabled>
-        <updateRate>50</updateRate>
-        <topicName>/imu</topicName>
+      <!-- LiDAR RPLIDAR ya definido en tb4_raw.urdf, se mapea más abajo -->
+    </webots:children>
+
+    <!-- Mapeo ROS para la cámara virtual -->
+    <device reference="camera">
+      <ros>
+        <topicName>/camera/image_raw</topicName>
+        <frameName>camera_link</frameName>
         <alwaysOn>true</alwaysOn>
-        <frameName>imu_link</frameName>
-        <inertialUnitName>p3d inertial</inertialUnitName>
-        <gyroName>p3d gyro</gyroName>
-      </plugin>
+        <updateRate>30</updateRate>
+      </ros>
+    </device>
 
-      <plugin type="webots_ros2_control::Ros2Control" />
+    <!-- Mapeo ROS para el LiDAR existente -->
+    <device reference="rplidar">
+      <ros>
+        <topicName>/scan</topicName>
+        <alwaysOn>true</alwaysOn>
+        <updateRate>20</updateRate>
+      </ros>
+    </device>
 
-    </webots>
+    <!-- IMU plugin -->
+    <plugin type="webots_ros2_driver::Ros2IMU">
+      <enabled>true</enabled>
+      <updateRate>50</updateRate>
+      <topicName>/imu</topicName>
+      <alwaysOn>true</alwaysOn>
+      <frameName>imu_link</frameName>
+      <inertialUnitName>p3d inertial</inertialUnitName>
+      <gyroName>p3d gyro</gyroName>
+    </plugin>
 
-    <ros2_control name="WebotsControl" type="system">
-      <hardware>
-        <plugin>webots_ros2_control::Ros2ControlSystem</plugin>
-      </hardware>
-      <joint name="right_wheel_joint">
-        <command_interface name="velocity">
-            <param name="min">-20</param>
-            <param name="max">20</param>
-        </command_interface>
-        <state_interface name="position" />
-        <state_interface name="velocity" />
-      </joint>
-      <joint name="left_wheel_joint">
-        <command_interface name="velocity">
-            <param name="min">-20</param>
-            <param name="max">20</param>
-        </command_interface>
-        <state_interface name="position" />
-        <state_interface name="velocity" />
-      </joint>
-    </ros2_control>
+    <!-- Control plugin -->
+    <plugin type="webots_ros2_control::Ros2Control" />
+  </webots>
+
+  <ros2_control name="WebotsControl" type="system">
+    <hardware>
+      <plugin>webots_ros2_control::Ros2ControlSystem</plugin>
+    </hardware>
+    <joint name="right_wheel_joint">
+      <command_interface name="velocity">
+        <param name="min">-20</param>
+        <param name="max">20</param>
+      </command_interface>
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="left_wheel_joint">
+      <command_interface name="velocity">
+        <param name="min">-20</param>
+        <param name="max">20</param>
+      </command_interface>
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+  </ros2_control>
 
 </robot>
+

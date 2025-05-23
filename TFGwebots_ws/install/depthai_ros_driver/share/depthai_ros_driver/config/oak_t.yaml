@@ -1,7 +1,1 @@
-
-/**:
-  ros__parameters:
-    camera:
-      i_nn_type: none
-      i_enable_ir: false
-      i_pipeline_type: Thermal
+/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver/config/oak_t.yaml

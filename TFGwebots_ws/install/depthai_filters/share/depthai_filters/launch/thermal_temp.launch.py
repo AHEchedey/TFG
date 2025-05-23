@@ -1,0 +1,1 @@
+/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_filters/launch/thermal_temp.launch.py

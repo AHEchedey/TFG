@@ -1,0 +1,1 @@
+/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_ros_msgs/rosidl_cmake/srv/NormalizedImageCrop_Request.msg
