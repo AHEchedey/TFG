@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/build/depthai_descriptions/ament_cmake_environment_hooks/local_setup.bash

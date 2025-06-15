@@ -1,0 +1,45 @@
+[0.966s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formas build --build-base /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build install --record /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/install.log --single-version-externally-managed install_data
+[1.208s] running egg_info
+[1.209s] creating ../../build/formas/formas.egg-info
+[1.209s] writing ../../build/formas/formas.egg-info/PKG-INFO
+[1.210s] writing dependency_links to ../../build/formas/formas.egg-info/dependency_links.txt
+[1.210s] writing entry points to ../../build/formas/formas.egg-info/entry_points.txt
+[1.210s] writing requirements to ../../build/formas/formas.egg-info/requires.txt
+[1.210s] writing top-level names to ../../build/formas/formas.egg-info/top_level.txt
+[1.210s] writing manifest file '../../build/formas/formas.egg-info/SOURCES.txt'
+[1.211s] reading manifest file '../../build/formas/formas.egg-info/SOURCES.txt'
+[1.212s] writing manifest file '../../build/formas/formas.egg-info/SOURCES.txt'
+[1.212s] running build
+[1.212s] running build_py
+[1.212s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build
+[1.213s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib
+[1.213s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas
+[1.213s] copying formas/__init__.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas
+[1.213s] copying formas/linea_recta.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas
+[1.213s] copying formas/sala_completa.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas
+[1.213s] copying formas/cuadrado.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas
+[1.213s] running install
+[1.213s] running install_lib
+[1.214s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas
+[1.214s] copying /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas/__init__.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas
+[1.214s] copying /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas/linea_recta.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas
+[1.214s] copying /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas/sala_completa.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas
+[1.214s] copying /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas/cuadrado.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas
+[1.215s] byte-compiling /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas/__init__.py to __init__.cpython-310.pyc
+[1.215s] byte-compiling /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas/linea_recta.py to linea_recta.cpython-310.pyc
+[1.215s] byte-compiling /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas/sala_completa.py to sala_completa.cpython-310.pyc
+[1.216s] byte-compiling /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas/cuadrado.py to cuadrado.cpython-310.pyc
+[1.216s] running install_data
+[1.217s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index
+[1.217s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index/resource_index
+[1.217s] creating /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index/resource_index/packages
+[1.217s] copying resource/formas -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/ament_index/resource_index/packages
+[1.217s] copying package.xml -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/share/formas
+[1.217s] running install_egg_info
+[1.219s] Copying ../../build/formas/formas.egg-info to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas-0.0.0-py3.10.egg-info
+[1.219s] running install_scripts
+[1.243s] Installing cuadrado script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.243s] Installing linea_recta script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.243s] Installing sala script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.243s] writing list of installed files to '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/install.log'
+[1.298s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas' returned '0': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formas build --build-base /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build install --record /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.858s] Invoking command in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formas build --build-base /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build install --record /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/install.log --single-version-externally-managed install_data
+[1.075s] running egg_info
+[1.076s] writing ../../build/formas/formas.egg-info/PKG-INFO
+[1.076s] writing dependency_links to ../../build/formas/formas.egg-info/dependency_links.txt
+[1.077s] writing entry points to ../../build/formas/formas.egg-info/entry_points.txt
+[1.077s] writing requirements to ../../build/formas/formas.egg-info/requires.txt
+[1.077s] writing top-level names to ../../build/formas/formas.egg-info/top_level.txt
+[1.079s] reading manifest file '../../build/formas/formas.egg-info/SOURCES.txt'
+[1.079s] writing manifest file '../../build/formas/formas.egg-info/SOURCES.txt'
+[1.079s] running build
+[1.080s] running build_py
+[1.080s] copying formas/sala_ruido.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas
+[1.080s] running install
+[1.080s] running install_lib
+[1.081s] copying /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build/lib/formas/sala_ruido.py -> /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas
+[1.082s] byte-compiling /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas/sala_ruido.py to sala_ruido.cpython-310.pyc
+[1.083s] running install_data
+[1.083s] running install_egg_info
+[1.085s] removing '/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas-0.0.0-py3.10.egg-info' (and everything under it)
+[1.085s] Copying ../../build/formas/formas.egg-info to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages/formas-0.0.0-py3.10.egg-info
+[1.086s] running install_scripts
+[1.108s] Installing cuadrado script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.108s] Installing linea_recta script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.108s] Installing sala script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.108s] Installing sala_ruido script to /home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/formas
+[1.109s] writing list of installed files to '/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/install.log'
+[1.147s] Invoked command in '/home/echedey/Desktop/TFG/TFGwebots_ws/src/formas' returned '0': PYTHONPATH=/home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/echedey/Desktop/TFG/TFGwebots_ws/install/formas/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formas build --build-base /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/build install --record /home/echedey/Desktop/TFG/TFGwebots_ws/build/formas/install.log --single-version-externally-managed install_data

@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver/include/depthai_ros_driver/param_handlers/camera_param_handler.hpp

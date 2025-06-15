@@ -1,34 +1,46 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-SIM_DIR="/home/echedey/Desktop/TFG/TFGwebots_ws/simulaciones"
+# Directorio base para simulaciones
+SIM_DIR="$HOME/Desktop/TFG/TFGwebots_ws/simulaciones"
 mkdir -p "$SIM_DIR"
-N=$(ls -d "$SIM_DIR"/Prueba_* 2>/dev/null | wc -l)
-NUEVO_NUM=$((N+1))
-BAG_PATH="$SIM_DIR/Prueba_$NUEVO_NUM"
 
+# Generar timestamp con fecha y hora
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+BAG_PATH="$SIM_DIR/${TIMESTAMP}"
+
+echo "[INFO] Carpeta de salida: $BAG_PATH"
+
+# 1) Lanzar simulación Webots+ROS2
 ros2 launch tb4_sim tb4_launcher.py &
 PID_WEBOTS=$!
 sleep 10
 
-ros2 launch foxglove_bridge foxglove_bridge_launch.xml &
-PID_BRIDGE=$!
-sleep 3
-
+# 2) Lanzar SLAM
 ros2 launch slam_toolbox online_sync_launch.py use_sim_time:=true &
 PID_SLAM=$!
 sleep 5
 
-xdg-open "https://studio.foxglove.dev" &
-
+# 3) Iniciar grabación de bag (ros2 bag crea $BAG_PATH)
+echo "[INFO] Iniciando ros2 bag record..."
 ros2 bag record -s mcap -o "$BAG_PATH" -a &
 PID_BAG=$!
 sleep 3
 
-ros2 run formas sala
+# 4) Ejecutar el nodo de movimiento
+echo "[INFO] Lanzando nodo de movimiento 'linea'..."
+#ros2 run formas linea_recta --dist=3
+ros2 run formas sala_ruido
 
-kill $PID_BAG
-kill $PID_SLAM
-kill $PID_WEBOTS
-kill $PID_BRIDGE
 
-echo "Simulación y grabación finalizadas. Archivo guardado en: $BAG_PATH"
+# 5) Detener procesos que sigan vivos
+for pid in "$PID_BAG" "$PID_SLAM" "$PID_WEBOTS"; do
+  if ps -p "$pid" > /dev/null 2>&1; then
+    echo "[INFO] Matando PID $pid"
+    kill "$pid"
+  fi
+done
+
+echo "[INFO] Simulación y grabación finalizadas."
+echo "[INFO] Datos grabados en: $BAG_PATH"
+

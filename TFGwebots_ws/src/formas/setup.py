@@ -20,6 +20,8 @@ setup(
         'console_scripts': [
             'cuadrado = formas.cuadrado:main',
             'sala = formas.sala_completa:main',
+            'linea_recta = formas.linea_recta:main', 
+            'sala_ruido = formas.sala_ruido:main',
         ],
     },
 )

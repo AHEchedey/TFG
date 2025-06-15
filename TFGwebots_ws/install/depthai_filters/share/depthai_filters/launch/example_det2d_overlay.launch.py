@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_filters/launch/example_det2d_overlay.launch.py

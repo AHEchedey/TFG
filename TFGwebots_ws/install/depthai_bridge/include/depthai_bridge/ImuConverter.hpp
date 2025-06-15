@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_bridge/include/depthai_bridge/ImuConverter.hpp

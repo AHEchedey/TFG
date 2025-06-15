@@ -1,1 +1,0 @@
-/home/echedey/Desktop/TFG/TFGwebots_ws/src/depthai-ros/depthai_ros_driver/launch/stereo_from_rosbag.launch.py

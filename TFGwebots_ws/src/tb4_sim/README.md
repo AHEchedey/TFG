@@ -1,54 +1,60 @@
-# TB4 Simulation with Webots
+# Simulación Turtlebot4 - Proyecto TFG
 
-Welcome to the `tb4_sim` repository! This project provides a basic simulation environment for the Turtlebot4 robot using the Webots simulator. Whether you're new to robotic simulations or a seasoned researcher, this repository is designed to provide a solid foundation to experiment and develop using Turtlebot4 in a virtual environment.
-
-## Features:
-
-1. **Turtlebot4 Model**: A detailed model of the Turtlebot4 robot to accurately mimic its real-world counterpart's behavior and characteristics.
-2. **Webots Integration**: Leverages the power of Webots, a widely-used robot simulator, offering realistic physics and sensor models.
-3. **Basic Environments**: Simple scenarios are included to get started with testing and experimentation.
-
-## Prerequisites:
-
-- Webots: Make sure you have [Webots](https://cyberbotics.com/) installed.
-- ROS2 Humble
-
-## Quick Start:
-
-1. **Clone the Repository in a ROS ws**:
-```bash
-git clone https://github.com/yourusername/tb4_sim.git
-```
-colcon build --symlink-install
-
-2. **Install the package**:
-```bash
-colcon build --symlink-install
-source install/setup.bash
-```
-
-3. **Launch the simulation**:
-I have prepared a complete launcher: it launch the world, spawns the robot and interfaces it with the drivers.
-```bash
-ros2 launch tb4_sim tb4_launcher.py
-```
-
-## Contributing:
-
-Contributions are always welcome! 
-
-## License:
-
-This project is licensed under [GPLv3 License](LICENSE.md).
-
-## Acknowledgments:
-
-I would like to thank the Webots community for their extensive documentation and support, and the creators of Turtlebot4 for their open-source resources.
-
-## Support & Feedback:
-
-For any questions or feedback, please open an issue, I will get back to you as soon as possible. 
+Este repositorio contiene un proyecto de simulación con el robot Turtlebot4 utilizando Webots y ROS 2 Humble. El entorno ha sido diseñado para realizar pruebas con SLAM, grabación de datos y control automático del robot.
 
 ---
 
-Happy Simulating! 🤖🌐
+## 📁 Estructura del Proyecto
+
+```
+TFG/
+├── Capturas simulaciones/           # rosbag de las simulaciones
+├── TFGwebots_ws/                    # Espacio de trabajo principal
+│   ├── TB_Procesos.sh               # Script para lanzar toda la simulación
+│   ├── src/                         # Código fuente (paquetes ROS2)
+│   ├── simulaciones/               # Carpeta donde se guardan los bag files
+│   ├── View_frames/                # Visualización de frames (opcional)
+│   └── build/, install/, log/      # Carpetas generadas por colcon
+```
+
+---
+
+## ▶️ Lanzar la simulación automáticamente
+
+Dentro de `TFGwebots_ws/` se encuentra un script llamado `TB_Procesos.sh` que automatiza el proceso completo:
+
+1. Lanza el mundo de Webots con el robot Turtlebot4.
+2. Ejecuta SLAM en tiempo real.
+3. Graba todos los tópicos ROS2 en un archivo `.mcap`.
+4. Ejecuta un nodo de movimiento del robot.
+5. Guarda los datos en la carpeta `simulaciones/`.
+
+### ✅ Cómo usarlo
+
+
+1. compilar proyecto TFGWebots_ws
+	colcon build
+2. Sourcear
+	source install/setup.bash
+
+```bash
+cd ~/Desktop/TFG/TFGwebots_ws/
+chmod +x TB_Procesos.sh
+./TB_Procesos.sh
+```
+
+Los datos se guardarán automáticamente en la carpeta `simulaciones/` con nombre basado en la fecha y hora de la ejecución.
+
+---
+
+## Requisitos
+
+- ROS 2 Humble
+- Webots instalado
+- Dependencias como `slam_toolbox`, `ros2_bag`, etc.
+
+---
+
+¡Gracias por visitar este proyecto! 🤖 Si tienes dudas, puedes abrir un issue o contactar con el autor.
+@ ahechedey@gmail.com
+@ echaguher@alum.us.es
