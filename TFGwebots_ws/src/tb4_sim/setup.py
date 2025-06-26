@@ -31,14 +31,8 @@ setup(
     maintainer='Echedey Aguilar Hernández',
     maintainer_email='ahechedey@gmail.com',
     keywords=['ROS', 'Webots', 'Robot', 'Simulation', 'Examples'],
-    classifiers=[
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache Software License',
-        'Programming Language :: Python',
-        'Topic :: Software Development',
-    ],
-    description='TurtleBot4 rpbpt ROS2 interface for Webots.',
-    license='Apache License, Version 2.0',
+    description='TurtleBot4 ROS2 interface for Webots.',
+    license='This package is available under the MIT license.',
     tests_require=['pytest'],
     entry_points={
         'launch.frontend.launch_extension': ['launch_ros = launch_ros']

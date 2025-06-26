@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Directorio base para simulaciones
-SIM_DIR="$HOME/Desktop/TFG/TFGwebots_ws/simulaciones"
+SIM_DIR="$HOME/Desktop/simulaciones"
 mkdir -p "$SIM_DIR"
 
 # Generar timestamp con fecha y hora
@@ -30,7 +30,7 @@ sleep 3
 # 4) Ejecutar el nodo de movimiento
 echo "[INFO] Lanzando nodo de movimiento 'linea'..."
 #ros2 run formas linea_recta --dist=3
-ros2 run formas sala_ruido
+ros2 run formas sala
 
 
 # 5) Detener procesos que sigan vivos

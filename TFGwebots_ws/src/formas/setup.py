@@ -14,7 +14,7 @@ setup(
     maintainer='echedey',
     maintainer_email='ahechedey@gmail.com',
     description='Paquete para dibujar formas con el turtlebot4 y obtener datos de sus sensores y actuadores',
-    license='Apache License 2.0',
+    license='This package is available under the MIT license.',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
