@@ -125,6 +125,8 @@ ros2 launch turtlebot4_viz view_robot.launch.py
 
 Una vez cargados todos los nodos, establece la **pose inicial** en RViz, elige los destinos mediante la interfaz (`user_interface_node`) y el robot distribuirá los productos en los puntos almacenados.
 
+[![Demo en YouTube](https://img.youtube.com/vi/sXMZNmpou8c/hqdefault.jpg)](https://www.youtube.com/watch?v=sXMZNmpou8c "Haz clic para reproducir")
+
 ---
 
 ## ✅ Requisitos
