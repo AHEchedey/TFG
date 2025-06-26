@@ -1,0 +1,50 @@
+[TEST] 🧪 Iniciando verificación del TurtleBot4...
+
+[TEST] Verificando conexión con Create 3 (base)...
+[31m❌ No hay datos de la base del robot[0m
+
+[TEST] Verificando LIDAR (RPLIDAR)...
+[31m❌ LIDAR no publica en /scan[0m
+
+[TEST] Verificando cámara OAK-D...
+[31m❌ Cámara no publica[0m
+
+[TEST] Verificando botones OLED...
+[31m❌ Botones no detectados[0m
+
+[TEST] Verificando display OLED...
+[32m✅ Mensaje enviado al display[0m
+
+[TEST] Verificando árbol TF...
+[31m❌ No se generó el árbol TF[0m
+
+[TEST] Verificación manual de movimiento (abre otra terminal):
+  ros2 run teleop_twist_keyboard teleop_twist_keyboard
+Usa las teclas W/A/S/D para mover el robot
+
+[TEST] 🧪 Verificación completa. Log guardado en: logs/test_20250620_1858.log
+[TEST] 🧪 Iniciando verificación del TurtleBot4...
+
+[TEST] Verificando conexión con Create 3 (base)...
+[31m❌ No hay datos de la base del robot[0m
+
+[TEST] Verificando LIDAR (RPLIDAR)...
+[31m❌ LIDAR no publica en /scan[0m
+
+[TEST] Verificando cámara OAK-D...
+[31m❌ Cámara no publica[0m
+
+[TEST] Verificando botones OLED...
+[31m❌ Botones no detectados[0m
+
+[TEST] Verificando display OLED...
+[32m✅ Mensaje enviado al display[0m
+
+[TEST] Verificando árbol TF...
+[31m❌ No se generó el árbol TF[0m
+
+[TEST] Verificación manual de movimiento (abre otra terminal):
+  ros2 run teleop_twist_keyboard teleop_twist_keyboard
+Usa las teclas W/A/S/D para mover el robot
+
+[TEST] 🧪 Verificación completa. Log guardado en: logs/test_20250620_1858.log

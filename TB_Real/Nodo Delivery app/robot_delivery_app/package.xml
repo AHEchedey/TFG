@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_delivery_app</name>
+  <version>0.0.1</version>
+  <description>Aplicación de entrega para TurtleBot 4: HMI (OLED+botones) y gestor de ubicaciones.</description>
+
+  <maintainer email="tumejoremail@ejemplo.com">Tu Nombre</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Herramienta de construcción Python -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencias de ejecución (run/exec) -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>turtlebot4_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>nav2_simple_commander</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Tipo de paquete Python -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

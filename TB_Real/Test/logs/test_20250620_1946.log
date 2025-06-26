@@ -1,0 +1,24 @@
+[TEST] 🧪 Iniciando verificación del TurtleBot4...
+
+[TEST] Verificando conexión con Create 3 (base)...
+[32m✅ Create 3 responde[0m
+
+[TEST] Verificando LIDAR (RPLIDAR)...
+[31m❌ Tópico /scan no encontrado[0m
+
+[TEST] Verificando cámara OAK-D...
+[31m❌ Tópico de la cámara no encontrado[0m
+
+[TEST] Verificando botones OLED...
+[32m✅ Botones detectados[0m
+
+[TEST] Verificando display OLED...
+[31m❌ Tópico /hmi/display/message no encontrado[0m
+
+[TEST] Verificando árbol TF...
+[31m❌ No se generó el árbol TF[0m
+
+[TEST] Verificación manual de movimiento:
+  Ejecuta en otra terminal: ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+[TEST] ✅ Verificación terminada. Resultado en logs/test_20250620_1946.log
