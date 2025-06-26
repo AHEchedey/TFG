@@ -1,4 +1,4 @@
-# Simulación Turtlebot4 – Proyecto TFG
+# Turtlebot4 – Proyecto TFG
 
 Este repositorio contiene un proyecto completo para **simular y desplegar** un Turtlebot 4 empleando **Webots** y **ROS 2 Humble**. Incluye pruebas de **SLAM**, grabación de datos, navegación autónoma y un **nodo de reparto** para distribuir productos.
 
